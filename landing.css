@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #212531;
+  }
+  .H1{
+   font-weight: bolder;
+   font-size: 50px;
+   color:white;
+   text-shadow: -1px -1px 0 rgb(107, 18, 70), 1px -1px 0 yellow, -1px 1px 0 rgb(213, 39, 129), 1px 1px yellow;
+  }
+  .h2{
+    color: brown;
+    font-weight: bolder;
+    font-size: 50px;
+    
+  }
+  .h6{
+    color: white;
+  }
+  
+  .nav-item{
+      padding-left: 10px;
+      cursor: pointer;
+    transform: scale(1.2);
+    text-shadow:  1px 1px yellow;
+  }
+  
+  .navbar-brand{
+      margin-left: 10px;
+  }
+  .header {
+    background-image: url('https://source.unsplash.com/1920x1080/?codeing');
+    background-size: cover;
+    background-position: center;
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  .form-container {
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    max-width: 30rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .form-group input {
+    margin-bottom: 0.7rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    outline: none;
+    transition: box-shadow .3s ease-in-out;
+  }
+  
+  .form-group input:focus {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+  }
+  
+  .form-group button {
+    width: 100%;
+    padding: 0.7rem;
+    margin-top: 1rem;
+    background-color: #343a40;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .form-group button:hover {
+    background-color: #212529;
+    cursor: pointer;
+  }
+  
+  .footer {
+    background-color: #343a40;
+    padding: 1rem;
+    color: #fff;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
